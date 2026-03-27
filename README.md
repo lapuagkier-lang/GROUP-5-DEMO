@@ -56,7 +56,16 @@ This project focuses on Advanced UI Implementation using HTML and CSS. The main 
 ## Screenshots
 - Index.html
 <img width="1352" height="634" alt="Screenshot 2026-03-27 213610" src="https://github.com/user-attachments/assets/b4443837-79e6-4743-8be8-567bf630c8a7" />
+- Signup.html
+  <p align="center">
+  <img width="300" height="200" alt="Screenshot 2026-03-27 213834" src="https://github.com/user-attachments/assets/e5475dd1-0af5-48b4-91bb-06f40bc13e29" />
+<img width="300" height="200" alt="Screenshot 2026-03-27 213928" src="https://github.com/user-attachments/assets/104cd6c7-0ea9-40b8-8e9e-b099a5277457" />
+</p>
+<p align="left">
+<img width="500" height="300" alt="Screenshot 2026-03-27 214017" src="https://github.com/user-attachments/assets/09f95b85-dc82-49c5-819d-56edd3f02fbd" />
+</p>
+---
+### Thank You 
+####For more inquiries just pm Us.
 
 
-
-- imagee 2
