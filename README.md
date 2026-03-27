@@ -54,7 +54,9 @@ This project focuses on Advanced UI Implementation using HTML and CSS. The main 
 - Jeremy Ortega
 
 ## Screenshots
-- Insert screenshots here
+- Index.html
+  !<img width="1352" height="634" alt="Screenshot 2026-03-27 213610" src="https://github.com/user-attachments/assets/b4443837-79e6-4743-8be8-567bf630c8a7" />
 
-- Image 1 as if
+
+
 - imagee 2
