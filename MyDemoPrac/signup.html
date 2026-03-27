@@ -1,0 +1,106 @@
+<body>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+    <h2>Signup Form</h2>
+
+    <div class="steps">
+        <div class="step active">1</div>
+        <div class="step">2</div>
+        <div class="step">3</div>
+    </div>
+
+    <!-- ADD FORM -->
+    <form action="save_signup.php" method="POST">
+
+    <!-- Step 1 -->
+    <div class="form-step active">
+        <label>First Name</label>
+        <input type="text" name="first_name" required>
+
+        <label>Last Name</label>
+        <input type="text" name="last_name" required>
+
+        <label>Email Address</label>
+        <input type="email" name="email" required>
+
+        <label>Phone Number</label>
+        <input type="number" name="phone" required>
+
+        <div class="btn-group">
+            <button disabled class="disabled-btn">Previous</button>
+            <button type="button" onclick="nextStep()">Next</button>
+        </div>
+    </div>
+
+    <!-- Step 2 - Simple Version -->
+    <div class="form-step">
+
+        <label>Barangay</label>
+        <input type="text" name="barangay" required>
+
+        <label>Municipality / City</label>
+        <input type="text" name="municipality" required>
+
+        <label>Province</label>
+        <input type="text" name="province" required>
+
+        <div class="btn-group">
+        <button type="button" onclick="prevStep()">Previous</button>
+        <button type="button" onclick="nextStep()">Next</button>
+        </div>
+    </div>
+
+
+    <!-- Step 3 -->
+    <div class="form-step">
+
+        <label>Username</label>
+        <input type="text" name="username" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <label>Confirm Password</label>
+        <input type="password" name="confirm_password" required>
+
+        <div class="btn-group">
+            <button type="button" onclick="prevStep()">Previous</button>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+
+    </form>
+
+</div>
+
+
+<script>
+let currentStep = 0;
+const formSteps = document.querySelectorAll(".form-step");
+const steps = document.querySelectorAll(".step");
+
+function updateSteps() {
+    formSteps.forEach((step, index) => {
+        step.classList.toggle("active", index === currentStep);
+    });
+
+    steps.forEach((circle, index) => {
+        circle.classList.toggle("active", index === currentStep);
+        circle.classList.toggle("completed", index < currentStep);
+    });
+}
+
+function nextStep() {
+    if (currentStep < formSteps.length - 1) {
+        currentStep++;
+        updateSteps();
+    }
+}
+
+function prevStep() {
+    if (currentStep > 0) {
+        currentStep--;
+        updateSteps();
+    }
+}
+</script>
