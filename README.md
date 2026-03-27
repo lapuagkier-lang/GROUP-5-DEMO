@@ -1,5 +1,60 @@
-h# GROUP-5-DEMO
-# Jeremy sd naa hahahaha
-# Melanie Here's hihi
-# here nako HAHA
-# ani? haha
+# Laboratory 2: Advanced UI Implementation
+
+## Project Description
+This project focuses on Advanced UI Implementation using HTML and CSS. The main goal is to create a responsive and visually organized user interface while applying proper layout design and styling techniques. The interface was developed as part of the laboratory activity to demonstrate front-end design skills and collaborative development using GitHub.
+
+## Objectives
+- Apply CSS layout techniques in building the interface
+- Create a clean and responsive UI design
+- Improve visual presentation using CSS styling
+- Practice collaborative coding using Git and GitHub
+
+## Tools Used
+- Git
+- GitHub
+- Visual Studio Code
+- Termux
+
+## Development Process
+- The repository was created by the group administrator.
+- The repository was cloned by contributors using Git.
+- Each member edited the files in Visual Studio Code or Termux.
+- Changes were added using `git add .`
+- Changes were saved using `git commit`
+- Updated files were uploaded using `git push`
+
+## Advanced UI Features Implemented
+- Styled user interface using CSS
+- Organized layout for content presentation
+- Applied spacing, alignment, and color design
+- Used rounded corners and shadow effects
+- Improved readability through proper text formatting
+
+## Accessibility Features
+- Readable font sizes
+- Clear section organization
+- Proper text contrast for visibility
+
+## User Guide
+- Open the project files in browser.
+- View the interface layout.
+- Navigate through the content sections.
+
+## Git Commands Used
+- `git clone <git clone https://github.com/lapuagkier-lang/GROUP-5-DEMO.git>` 
+- `git add .`
+- `git commit -m "Updated UI, Adding Code and etc"`
+- `git push origin main`
+
+## Contributors
+- Kier Lapuag (Administrator)
+- Melanie Alingasa
+- Andrelyn Betonio
+- Anjo Hamo
+- Jeremy Ortega
+
+## Screenshots
+- Insert screenshots here
+
+- Image 1 as if
+- imagee 2
